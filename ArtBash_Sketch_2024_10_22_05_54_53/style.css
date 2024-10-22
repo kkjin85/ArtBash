@@ -1,10 +1,14 @@
 html, body {
   margin: 0;
   padding: 0;
+  min-height: 100vh;
+  display: flex;
+  box-sizing:border-box;
   font-family: 'Space Grotesk', sans-serif;
 }
 canvas {
-  display: block;
+  display: flex;
+  background-color: black;
 }
 
 
@@ -13,12 +17,12 @@ header{
   /* background-color: blanchedalmond; */
   /* width: 100%; */
   /* border: .5rem solid palevioletred; */
-  padding: 1rem;
+  padding: 1rem 2rem 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1rem 2rem;
+  gap: 15rem 2rem;
   background-color: black;
   color: white;
 }
@@ -33,15 +37,12 @@ header a{
 } */
 
 .logo{
-  font-size: 2rem;
-  text-decoration: none;
-  border-radius: 20%;
-  padding: .25rem;
-  color: white;
-
+  width: 5rem;
 }
 
 .main-menu{
+  font-size: 1.1rem;
+  font-weight: 400;
   display: flex;
   flex-wrap: wrap;
   gap: 0 1rem;
@@ -49,9 +50,16 @@ header a{
 
 .main-menu a{
   text-decoration: none;
-  transition: color .5s;
+  transition: color .15s;
 }
 
 .main-menu a:hover{
-  color: cadetblue;
+  color: #F1EFB3;
+}
+
+footer{
+  position: absolute;
+  color: white;
+  bottom: 0;
+  padding: 1rem 2rem 1rem;
 }

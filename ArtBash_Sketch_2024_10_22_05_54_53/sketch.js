@@ -5,7 +5,7 @@ let size = 15;
 let img;
 
 function preload() {
-  img = loadImage('images/artbash_typetrial1-01.png'); // Load image
+  img = loadImage('images/artbash_typetrial1-11.png'); // Load image
 }
 
 function setup() {
