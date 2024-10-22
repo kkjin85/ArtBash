@@ -22,7 +22,7 @@ header{
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  gap: 15rem 2rem;
+  gap: 16rem 2rem;
   background-color: black;
   color: white;
 }
