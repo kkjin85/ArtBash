@@ -9,7 +9,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 800);
+  createCanvas(795, 795);
   angleMode(DEGREES);
   cols = width / size;
   rows = height / size;
