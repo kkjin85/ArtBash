@@ -10,13 +10,14 @@ class Shape {
 
   // Method to apply fill or stroke based on brightness
   applyFill() {
-    if (this.brightnessValue <= 1) { // Low brightness, apply fill
-      fill(this.shapeColor); 
-      noStroke();
-    } else {
+    if (this.brightnessValue <= 1) { 
       noFill(); 
       stroke(this.shapeColor);
       strokeWeight(0.5); // Fixed stroke weight
+    } else {
+      // Low brightness, apply fill
+      fill(this.shapeColor); 
+      noStroke();
     }
   }
 

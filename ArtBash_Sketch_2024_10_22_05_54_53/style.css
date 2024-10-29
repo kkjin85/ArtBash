@@ -6,23 +6,20 @@ html, body {
   box-sizing:border-box;
   font-family: 'Space Grotesk', sans-serif;
 }
-canvas {
-  display: flex;
-  background-color: black;
-}
-
 
 header{
   /* position: fixed; */
   /* background-color: blanchedalmond; */
   /* width: 100%; */
   /* border: .5rem solid palevioletred; */
-  padding: 1rem 2rem 1rem;
-  display: flex;
+  padding: 4rem 4rem;
   justify-content: space-between;
+  align-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 16rem 2rem;
+  display: flex;
+  flex-direction: column;
+  max-height: 100%;
+  /*flex-wrap: wrap;*/
   background-color: black;
   color: white;
 }
@@ -37,24 +34,50 @@ header a{
 } */
 
 .logo{
-  width: 5rem;
+  width: 6rem;
+}
+
+.date{
+  font-weight: 900;
+  font-size: 1.3rem;
+  position: absolute;
+  top: 12rem;
+
+}
+
+.circle{
+  width: 1rem;
+  padding-right: 10px;
 }
 
 .main-menu{
+  display: flex;
+  flex-direction: column;
   font-size: 1.1rem;
   font-weight: 400;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0 1rem;
+  gap: 0.3rem 1rem;
 }
 
 .main-menu a{
+  display:inline-flex;
   text-decoration: none;
   transition: color .15s;
 }
 
-.main-menu a:hover{
-  color: #F1EFB3;
+.main-menu .About:hover{
+  color: #FF8D6D;
+}
+
+.main-menu .Events:hover{
+  color: #5BCAE9;
+}
+
+.main-menu .Contact:hover{
+  color: #66C287;
+}
+
+.main-menu .SAIC:hover{
+  color: #EF5CA1;
 }
 
 footer{
