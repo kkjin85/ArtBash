@@ -8,10 +8,6 @@ html, body {
 }
 
 header{
-  /* position: fixed; */
-  /* background-color: blanchedalmond; */
-  /* width: 100%; */
-  /* border: .5rem solid palevioletred; */
   padding: 4rem 4rem;
   justify-content: space-between;
   align-content: space-between;
@@ -27,11 +23,6 @@ header{
 header a{
   color: white;
 }
-
-/* header > * {
-  outline: 2px solid green;
-  padding: .5rem;
-} */
 
 .logo{
   width: 6rem;
