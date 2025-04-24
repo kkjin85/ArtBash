@@ -21,7 +21,7 @@ function setup() {
   angleMode(DEGREES);
   cols = width / size;
   rows = height / size;
-  background(0); // Black background
+  background('#101820'); // Black background
 
    // Calculate top-left corner to center the image
    imgX = (width - img.width) / 2;
@@ -60,7 +60,7 @@ function setup() {
  }
  
  function draw() {
-   background(0); // Clear the canvas each frame
+   background('#101820'); // Clear the canvas each frame
  
    // Loop through and draw all shapes
    for (let i = 0; i < cols; i++) {
